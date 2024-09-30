@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje prezentace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/theme/black.min.css">
+</head>
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <section>
+                <h1>Vítejte v prezentaci</h1>
+                <p>Toto je jednoduchá prezentace pomocí RevealJS.</p>
+            </section>
+
+            <!-- Slide 2 (s obrázkem) -->
+            <section>
+                <h2>Obrázek Slide</h2>
+                <img src="https://via.placeholder.com/800x400" alt="Ukázkový obrázek" style="width: 60%;">
+                <p>Popis obrázku</p>
+            </section>
+
+            <!-- Slide 3 -->
+            <section>
+                <h2>Další slide</h2>
+                <p>Tento slide obsahuje více textu a další obsah.</p>
+                <ul>
+                    <li>Bod 1</li>
+                    <li>Bod 2</li>
+                    <li>Bod 3</li>
+                </ul>
+            </section>
+            
+            <!-- Slide 4 (multislide vertikální) -->
+            <section>
+                <section>
+                    <h2>Slide 1 ve skupině</h2>
+                    <p>Obsah prvního slidu v rámci této skupiny.</p>
+                </section>
+                <section>
+                    <h2>Slide 2 ve skupině</h2>
+                    <p>Obsah druhého slidu v rámci této skupiny.</p>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize();
+    </script>
+</body>
+</html>
